@@ -23,7 +23,7 @@ while True:
         userScore+=1
     elif pcnumber==3 and firstnumber==2:
         pcScore+=1
-    print(userScore,pcScore,pcnumber,firstnumber)
+    print(f"User: {userScore}, Pc {pcScore} | {firstnumber} {pcnumber}")
 
     if pcScore==3 or userScore==3:
         print(userScore,pcScore)
