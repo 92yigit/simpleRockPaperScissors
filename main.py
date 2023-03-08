@@ -7,7 +7,7 @@ userScore=0
 
 while True:
     pcnumber = random.randint(1, 3)
-    firstnumber = int(input('what is ur first number'))
+    firstnumber = int(input('give me a number'))
     if pcnumber==firstnumber:
         print('berabere')
     elif pcnumber==1 and firstnumber==2:
